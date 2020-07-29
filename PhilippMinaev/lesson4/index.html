@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson4</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      // 1
+      let cT = +prompt("Введите температуру в градусах по Цельсию", "");
+      let fT = (9 / 5) * cT + 32;
+      alert(`${cT}  градусов по Цельсию = ${fT} градусов по Фаренгейту`);
+
+      // 2
+      let name = "Василий";
+      let admin;
+      admin = name;
+      alert(admin);
+
+      // 3
+      // 1000 + "108"  равно строке "1000108". Правило простое: если хотя бы один из операндов является строкой, то второй будет также преобразован к строке.
+      //(https://learn.javascript.ru/operators)
+
+      // 4
+      // Как я понял, разница в последовательности загрузки скриптов. async - что меньше, то и выгружает быстрее. defer - только после полной загрузки.
+    </script>
+  </body>
+</html>
